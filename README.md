@@ -4,3 +4,36 @@ This project implements a deep learning model for binary image classification, d
 
 ## 📂 Dataset
 - <a href="https://www.kaggle.com/competitions/dogs-vs-cats/data">Dataset</a>
+
+##🎯 Objectives:
+Develop a robust cat vs. dog classifier with a smaller dataset.
+Prevent overfitting with techniques like data augmentation and regularization.
+Achieve high accuracy with careful model tuning and evaluation.
+
+##📊 Dataset Used:
+A reduced version of the cat vs. dog dataset:
+Training: 1000 cat images, 1000 dog images
+Validation: 500 cat images, 500 dog images
+Testing: 500 cat images, 500 dog images
+
+##⚙️ Model Architecture:
+Custom CNN with multiple convolutional layers.
+Transfer Learning with models like VGG16 for feature extraction.
+ReLU activations, MaxPooling layers, and Dropout for regularization.
+
+##🚀 Training Process:
+Preprocessing: Image resizing, normalization, and augmentation (flipping, rotation, etc.).
+Training: Model trained with techniques like batch normalization and early stopping.
+Validation: Performance monitored to avoid overfitting and adjust hyperparameters.
+
+##📈 Results:
+Training Accuracy: ~100%
+Validation Accuracy: ~93%
+Test Accuracy: ~93%
+
+##🛠️ Technologies Used:
+Python, TensorFlow, Keras, NumPy, Matplotlib
+Jupyter Notebooks for experimentation and visualization
+
+##🏁 Conclusion:
+This project highlights the power of deep learning for small-scale image classification tasks. By using a well-structured CNN and employing best practices like augmentation and regularization, it’s possible to build a highly accurate model even with limited data
