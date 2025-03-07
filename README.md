@@ -15,6 +15,8 @@ A reduced version of the cat vs. dog dataset:
 Training: 1000 cat images, 1000 dog images
 Validation: 500 cat images, 500 dog images
 Testing: 500 cat images, 500 dog images
+![screenshort](https://github.com/user-attachments/assets/4b50b1f3-25df-4bb9-b4d5-43d8e150dffd)
+![screenshort1](https://github.com/user-attachments/assets/92db774d-2f6b-48ef-b0b5-0bc9610040f8)
 
 ## ⚙️ Model Architecture:
 Custom CNN with multiple convolutional layers.
